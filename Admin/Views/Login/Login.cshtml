@@ -1,0 +1,246 @@
+﻿@model data.Models.KLogin
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@TempData["Name"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    @*<meta name="keywords" content="Blend  Login Form template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />*@
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Custom Theme files -->
+    <link href="~/web/css/style.css" rel="stylesheet" />
+    <link href="~/web/css/font-awesome.css" rel="stylesheet" /><!-- Font-Awesome-Icons-CSS -->
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Vollkorn+SC:400,600,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <!-- //web font -->
+</head>
+<body>
+    <!-- main -->
+    <div class="main">
+        <h1>Blog Site Login</h1>
+        <div class="main-w3lsrow">
+            <!-- login form -->
+            <div class="login-form login-form-left">
+                <div class="agile-row">
+                    <h2>Login Here</h2>
+                    <div class="login-agileits-top">
+                        <form action="#" method="post">
+                            <p>User Name </p>
+                            <input asp-for="@Model.KullaniciAdi" type="text" class="name" required="" />
+                            <p>Password</p>
+                            <input asp-for="@Model.Sifre" type="password" class="password" required="" />
+                            @*<label class="anim">
+                                    <input type="checkbox" class="checkbox">
+                                    <span> Remember me ?</span>
+                                </label>*@
+                            <input type="submit" value="Login">
+                        </form>
+                    </div>
+                    @*<div class="social_icons agileinfo">
+                            <ul class="top-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>*@
+
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="copyright">
+            <p> © 2021 All rights reserved Blog Site</a></p>
+        </div>
+        <!-- //copyright -->
+    </div>
+    <!-- //main -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Banzhow</title>
+    <link href="~/css/style_overide.css" rel="stylesheet" />
+    <script src="~/js/login.js"></script>
+</head>
+    <body>
+        <hr />-->
+@*<form asp-action="Login" method="post">
+         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+         <div class="form-group">
+             <label asp-for="KullaniciAdi" class="control-label">Kullanıcı Adı</label>
+             <input asp-for="@Model.KullaniciAdi" class="form-control" />
+             <span asp-validation-for="KullaniciAdi" class="text-danger"></span>
+
+    </div>
+
+         <div class="form-group">
+             <label asp-for="Sifre" class="control-label"></label>
+             <input asp-for="@Model.Sifre" class="form-control" />
+             <span asp-validation-for="Sifre" class="text-danger"></span>
+         </div>
+         <div class="form-group">
+             <input type="submit" value="submit" class="btn btn-primary" />
+         </div>
+     </form>*@
+<!--<div  class="wrapper">
+            <div class="container">
+                <h1>Login</h1>
+
+                <form class="form" asp-action="Login">
+                    <input asp-for="" type="text" placeholder="Username">
+                    <br />
+                    <input asp-for="" type="password" placeholder="Password">
+                    <br />
+                    <button value="submit" id="login-button">Login</button>
+                </form>
+            </div>
+
+            <ul class="bg-bubbles">
+            </ul>
+        </div>
+    </body>
+</html>-->

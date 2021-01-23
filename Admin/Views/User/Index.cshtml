@@ -1,0 +1,41 @@
+﻿@using data.Models
+@model List<KLogin>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@TempData["name"]</title>
+</head>
+<body>
+    
+    <a class="btn btn-sm btn-danger" asp-controller="User" asp-action="Edit">Ekle</a>
+
+    <table class="table table-bordered">
+        <tr>
+           
+            <th>İd</th>
+            <th>Kullanıcı Adı</th>
+            <th>Sifre</th>
+            <th>Güncelle</th>
+            <th>Sil</th>
+
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.KullaniciAdi</td>
+                <td>@item.Sifre</td>
+                <td>
+                    @* @Html.ActionLink("Sil", "Delete",FormMethod.Post, new { Id = item.Id, @class = "btn btn-danger" })*@
+                    <a class="btn btn-sm btn-danger" asp-controller="User" asp-action="Delete" asp-route-Id="@item.Id">SİL</a>
+                </td>
+
+                <td>
+                    @Html.ActionLink("Güncelle", "Edit", new { Id = item.Id }, new { @class = "btn btn-success" })
+                </td>
+                
+            </tr>
+        }
+    </table>
+</body>
+</html>

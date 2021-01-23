@@ -1,0 +1,173 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap.css" />
+    <Content Remove="wwwroot\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.eot" />
+    <Content Remove="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.svg" />
+    <Content Remove="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.ttf" />
+    <Content Remove="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.woff" />
+    <Content Remove="wwwroot\css\fonts\font-awesome\fontawesome-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bold-webfont.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bold-webfont.svg" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bold-webfont.ttf" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bold-webfont.woff" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bold-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.svg" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.ttf" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.woff" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-bolditalic-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-italic-webfont.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-italic-webfont.svg" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-italic-webfont.ttf" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-italic-webfont.woff" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-italic-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-light-webfont.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-light-webfont.svg" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-light-webfont.ttf" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-light-webfont.woff" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-light-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.svg" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.ttf" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.woff" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-lightitalic-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-regular-webfont.eot" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-regular-webfont.svg" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-regular-webfont.ttf" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-regular-webfont.woff" />
+    <Content Remove="wwwroot\css\fonts\opensans\opensans-regular-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\fonts\pacifico\pacifico-webfont.eot" />
+    <Content Remove="wwwroot\css\fonts\pacifico\pacifico-webfont.svg" />
+    <Content Remove="wwwroot\css\fonts\pacifico\pacifico-webfont.ttf" />
+    <Content Remove="wwwroot\css\fonts\pacifico\pacifico-webfont.woff" />
+    <Content Remove="wwwroot\css\fonts\pacifico\pacifico-webfontd41d.eot" />
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\css\style_overide.css" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular-2.html" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular-3.html" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular-4.html" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regular.html" />
+    <Content Remove="wwwroot\fonts\glyphicons-halflings-regulard41d.html" />
+    <Content Remove="wwwroot\img\client-1.png" />
+    <Content Remove="wwwroot\img\client-2.png" />
+    <Content Remove="wwwroot\img\client-3.png" />
+    <Content Remove="wwwroot\img\client-4.png" />
+    <Content Remove="wwwroot\img\client-5.png" />
+    <Content Remove="wwwroot\img\client-6.png" />
+    <Content Remove="wwwroot\img\monster.png" />
+    <Content Remove="wwwroot\img\portfolio_1.png" />
+    <Content Remove="wwwroot\img\portfolio_2.png" />
+    <Content Remove="wwwroot\img\portfolio_3.png" />
+    <Content Remove="wwwroot\img\portfolio_4.png" />
+    <Content Remove="wwwroot\img\portfolio_5.png" />
+    <Content Remove="wwwroot\img\portfolio_6.png" />
+    <Content Remove="wwwroot\img\post1.png" />
+    <Content Remove="wwwroot\img\post2.png" />
+    <Content Remove="wwwroot\img\post3.png" />
+    <Content Remove="wwwroot\img\section-bg.png" />
+    <Content Remove="wwwroot\img\slide\slide1.png" />
+    <Content Remove="wwwroot\img\slide\slide2.png" />
+    <Content Remove="wwwroot\img\slide\slide3.png" />
+    <Content Remove="wwwroot\js\banzhow.js" />
+    <Content Remove="wwwroot\js\bootstrap.js" />
+    <Content Remove="wwwroot\js\jquery-1.10.2.js" />
+    <Content Remove="wwwroot\js\login.js" />
+    <Content Remove="wwwroot\js\plugins.js" />
+    <Content Remove="wwwroot\js\switcher\switcher.css" />
+    <Content Remove="wwwroot\js\switcher\switcher.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\font-awesome.min.css" />
+    <None Include="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.eot" />
+    <None Include="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.svg" />
+    <None Include="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.ttf" />
+    <None Include="wwwroot\css\fonts\font-awesome\fontawesome-webfontba72.woff" />
+    <None Include="wwwroot\css\fonts\font-awesome\fontawesome-webfontd41d.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bold-webfont.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bold-webfont.svg" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bold-webfont.ttf" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bold-webfont.woff" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bold-webfontd41d.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.svg" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.ttf" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bolditalic-webfont.woff" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-bolditalic-webfontd41d.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-italic-webfont.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-italic-webfont.svg" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-italic-webfont.ttf" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-italic-webfont.woff" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-italic-webfontd41d.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-light-webfont.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-light-webfont.svg" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-light-webfont.ttf" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-light-webfont.woff" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-light-webfontd41d.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.svg" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.ttf" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-lightitalic-webfont.woff" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-lightitalic-webfontd41d.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-regular-webfont.eot" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-regular-webfont.svg" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-regular-webfont.ttf" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-regular-webfont.woff" />
+    <None Include="wwwroot\css\fonts\opensans\opensans-regular-webfontd41d.eot" />
+    <None Include="wwwroot\css\fonts\pacifico\pacifico-webfont.eot" />
+    <None Include="wwwroot\css\fonts\pacifico\pacifico-webfont.svg" />
+    <None Include="wwwroot\css\fonts\pacifico\pacifico-webfont.ttf" />
+    <None Include="wwwroot\css\fonts\pacifico\pacifico-webfont.woff" />
+    <None Include="wwwroot\css\fonts\pacifico\pacifico-webfontd41d.eot" />
+    <None Include="wwwroot\css\style_overide.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular-2.html" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular-3.html" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular-4.html" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.html" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regulard41d.html" />
+    <None Include="wwwroot\img\client-1.png" />
+    <None Include="wwwroot\img\client-2.png" />
+    <None Include="wwwroot\img\client-3.png" />
+    <None Include="wwwroot\img\client-4.png" />
+    <None Include="wwwroot\img\client-5.png" />
+    <None Include="wwwroot\img\client-6.png" />
+    <None Include="wwwroot\img\monster.png" />
+    <None Include="wwwroot\img\portfolio_1.png" />
+    <None Include="wwwroot\img\portfolio_2.png" />
+    <None Include="wwwroot\img\portfolio_3.png" />
+    <None Include="wwwroot\img\portfolio_4.png" />
+    <None Include="wwwroot\img\portfolio_5.png" />
+    <None Include="wwwroot\img\portfolio_6.png" />
+    <None Include="wwwroot\img\post1.png" />
+    <None Include="wwwroot\img\post2.png" />
+    <None Include="wwwroot\img\post3.png" />
+    <None Include="wwwroot\img\section-bg.png" />
+    <None Include="wwwroot\img\slide\slide1.png" />
+    <None Include="wwwroot\img\slide\slide2.png" />
+    <None Include="wwwroot\img\slide\slide3.png" />
+    <None Include="wwwroot\js\banzhow.js" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\js\login.js" />
+    <None Include="wwwroot\js\plugins.js" />
+    <None Include="wwwroot\js\switcher\switcher.css" />
+    <None Include="wwwroot\js\switcher\switcher.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\data\data.csproj" />
+  </ItemGroup>
+
+</Project>
